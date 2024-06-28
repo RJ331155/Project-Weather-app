@@ -1,0 +1,13 @@
+Export:
+ M) open cmd
+==mysqldump -u YourUser -p YourDatabaseName > wantedsqlfile.sql
+
+
+import:
+ M1) open cmd
+==mysql -u root -p YourDatabaseName < wantedsqlfile.sql
+
+
+ M2) open mysql commandline
+create empty database and use database
+==source /home/shabeer/Desktop/wantedsqlfile.sql;

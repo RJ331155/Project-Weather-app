@@ -1,0 +1,67 @@
+1.Angul 
+2.Boudh
+3.Balangir
+4.Bargarh
+5.Balasore(Baleswar)
+6.Bhadrak
+7.Cuttack
+8.Deogarh(Debagarh)
+9.Dhenkanal
+10.Ganjam
+11.Gajapati
+12.Jharsuguda
+13.Jaipur
+14.Jagatsinghapur
+15.Khordha
+16.Keonjhar(kendujhar)
+17.Kalahandi
+18.Kandhamal
+19.Koraput
+20.Kendrapara
+21.Malkangiri
+22.Mayurbhanj
+23.Nabarangpur
+24.Nuapada
+25.Nayagarh
+26.Puri
+27.Rayagada
+28.Sambalpur
+29.Subarnapur(Sonepur)
+30.Sundargarh
+31.Andhra pradesh
+32.Arunachal pradesh
+33.Assam
+34.Bihar
+35.Chhattisgarh
+36.Goa
+37.Gujarat
+38.Haryana
+39.Himachal pradesh
+40.Jammu
+41.Jammu and Kashmir
+42.Jharkhand
+43.Karnataka
+44.Kerala
+45.Madhya pradesh
+46.Maharashtra
+47.Manipur
+48.Meghalaya
+49.Mizoram
+50.Nagaland
+51.Orissa
+52.Punjab
+53.Rajasthan
+54.Sikkim
+55.Tamil Nadu
+56.Tripura
+57.Uttarakhand
+58.Uttar pradesh
+59.West bengal
+60.Nepal
+61.Chandigarh
+62.Dadra and Nagar Haveli
+63.Daman and Diu
+64.Delhi
+65.Mumbai
+66.Rourkela
+67.Japan
