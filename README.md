@@ -64,7 +64,7 @@ python
 `"WEATHER APP.py"`
 
 The EXE 
-`[🚀 Download Standalone EXE](https://github.com/RJ331155/Project-Weather-app/raw/main/WEATHER2APP/WEATHER%20APP.exe)`
+`[🚀 Download Standalone EXE]`(https://github.com/RJ331155/Project-Weather-app/raw/main/WEATHER2APP/WEATHER%20APP.exe)
 
 ##🖥️ Distribution
 A standalone Windows version is provided in the repository. This allows the application to run as a .exe on any machine without requiring a Python installation, provided a MySQL server is accessible to the application.
