@@ -1,29 +1,50 @@
-# 🌦️ Weather Application (Class 12 CS Project)
+# 🌦️ Weather Monitoring System (Class 12 CS Project)
 
-A comprehensive Python desktop application developed as a Computer Science project. The app fetches real-time weather data and utilizes MySQL for backend data management, demonstrating Python-MySQL connectivity.
+A professional desktop application developed for the Class 12 Computer Science (083) practical examination. This project integrates real-time weather data fetching, database management, and standalone software distribution.
 
-## 📝 Project Overview
-This project aims to provide users with accurate weather information including temperature, humidity, and wind speed for any location worldwide. It integrates external APIs with a graphical user interface and a relational database.
+## 📝 Project Details
+**Title:** Weather Monitoring System with Python-MySQL Connectivity and API Integration  
+**Subject:** Computer Science (Class XII)  
+**Developer:** R JAYAM  
+
+---
+
+## 🚀 Overview
+This application provides a real-time weather dashboard. It bridges the gap between a Python-based Graphical User Interface (GUI) and a MySQL backend, demonstrating how modern software handles live data from the internet and stores it locally.
 
 ## 🛠️ Key Features
-* **Live API Integration:** Uses `requests` to fetch data from OpenWeatherMap.
-* **Database Management:** Uses `mysql.connector` to store and retrieve data (e.g., search logs/user data).
-* **Automatic Geocoding:** Uses `geopy` to convert city names into coordinates.
-* **Timezone Handling:** Automatically detects the local time of the searched city using `timezonefinder`.
-* **User-Friendly GUI:** Built using Python's `tkinter` library.
+* **Live API Data:** Connects to OpenWeatherMap API to fetch temperature, humidity, and wind speed via the `requests` module.
+* **Database Persistence:** Uses `mysql.connector` to manage backend data (search history and logs) for permanent storage.
+* **Automated Geocoding:** Converts city names to precise coordinates using `geopy`.
+* **Global Time Tracking:** Detects local time for any city worldwide using `timezonefinder` and `pytz`.
+* **Standalone Executable:** Packaged into a portable `.exe` file using `auto-py-to-exe` for easy deployment on Windows machines.
 
-## 📚 Modules Used
-| Module | Purpose |
+## 📚 Technical Stack
+| Category | Technology Used |
 | :--- | :--- |
-| **Tkinter** | Creating the Graphical User Interface. |
-| **MySQL Connector** | Connecting Python with the MySQL database. |
-| **Requests** | Fetching data from the Weather API. |
-| **Geopy** | Converting location names to Lat/Long coordinates. |
-| **Pytz / Timezonefinder** | Managing and displaying local time zones. |
+| **Language** | Python 3.x |
+| **GUI Library** | Tkinter |
+| **Database** | MySQL (Relational Database) |
+| **APIs** | OpenWeatherMap REST API |
+| **Distribution** | Auto-py-to-exe |
 
-## ⚙️ Prerequisites & Setup
-1. **MySQL Server:** Ensure you have MySQL installed and running.
-2. **Table Setup:** Create the database and tables as specified in the project documentation.
-3. **Libraries:** Install required libraries using:
-   ```bash
-   pip install requests mysql-connector-python pytz timezonefinder geopy
+## 📦 Python Modules Used
+* `mysql.connector`: To establish Python-MySQL connectivity.
+* `requests`: To fetch and parse JSON data from the weather API.
+* `geopy.geocoders`: To perform reverse geocoding for city coordinates.
+* `timezonefinder`: To find the timezone of a specific location.
+* `pytz`: To handle world clock conversions.
+* `datetime`: To process and display system and local time.
+* `auto-py-to-exe`: To convert scripts into a standalone application.
+
+## ⚙️ Setup and Installation
+
+### 1. Prerequisites
+* Python 3.x installed.
+* MySQL Server installed and running.
+
+### 2. Database Configuration
+Create the database and update the credentials in your script:
+```sql
+CREATE DATABASE weather_db;
+-- Note: Ensure your table structure matches the code logic
