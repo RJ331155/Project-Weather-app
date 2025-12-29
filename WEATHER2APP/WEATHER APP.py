@@ -7,6 +7,8 @@ from datetime import datetime
 import requests
 import pytz
 import mysql.connector as mycon
+import os
+from dotenv import load_dotenv
 
 root=Tk()
 root.title("WEATHER APP")
@@ -37,7 +39,9 @@ def getweather():
        long1.config(text=f"{round(location.latitude, 4)}°N,{round(location.longitude, 4)}°E")
        name.config(text="CURRENT WEATHER")
 
-       api = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=1be6666b3f28e54c35779e4ca6a28f42"
+       load_dotenv()
+       api_key = os.getenv("WEATHER_API_KEY")
+       api = "https://api.openweathermap.org/data/2.5/weather?q=" + city +"&appid="+ api_key
 
        json_d = requests.get(api).json()
        con = json_d['weather'][0]['main']
